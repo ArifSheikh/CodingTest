@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/TimeSection">
+        <TextView
+            android:id="@+id/txt_Time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/txt_size_medium"
+            android:textStyle="bold"
+            android:text="Time"
+            android:textColor="@android:color/holo_blue_dark" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/condSection">
+        <TextView
+            android:id="@+id/txt_WeatherConditionLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_xsmall"
+            android:textSize="@dimen/txt_size_small"
+            android:text="Weather Condition : " />
+        <TextView
+            android:id="@+id/txt_WeatherCondition"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_xsmall"
+            android:textSize="@dimen/txt_size_small" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tempSection">
+        <TextView
+            android:id="@+id/txt_TemperatureLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_xsmall"
+            android:textSize="@dimen/txt_size_small"
+            android:text="Temperature : "
+            android:visibility="gone" />
+        <TextView
+            android:id="@+id/txt_Temperature"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_xsmall"
+            android:textSize="@dimen/txt_size_small"
+            android:text="Temperature"
+            android:visibility="gone" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/minTempSection">
+        <TextView
+            android:id="@+id/txt_MinTemperatureLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_xsmall"
+            android:textSize="@dimen/txt_size_small"
+            android:text="Min Temperature : "
+            android:visibility="gone" />
+        <TextView
+            android:id="@+id/txt_MinTemperature"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_xsmall"
+            android:textSize="@dimen/txt_size_small"
+            android:text="Min Temperature"
+            android:visibility="gone" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/maxTempSection">
+        <TextView
+            android:id="@+id/txt_MaxTemperatureLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_xsmall"
+            android:textSize="@dimen/txt_size_small"
+            android:text="Max Temperature"
+            android:visibility="gone" />
+        <TextView
+            android:id="@+id/txt_MaxTemperature"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_xsmall"
+            android:textSize="@dimen/txt_size_small"
+            android:text="Max Temperature"
+            android:visibility="gone" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/humiditySection">
+        <TextView
+            android:id="@+id/txt_HumidityLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/txt_size_small"
+            android:text="Humidity : " />
+        <TextView
+            android:id="@+id/txt_Humidity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/txt_size_small"
+            android:text="Humidity" />
+    </LinearLayout>
+</LinearLayout>

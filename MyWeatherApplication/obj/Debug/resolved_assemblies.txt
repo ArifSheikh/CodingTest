@@ -1,0 +1,2 @@
+C:\Users\399031\documents\visual studio 2013\Projects\MyWeatherApplication\MyWeatherApplication\bin\Debug\MyWeatherApplication.dll
+C:\Users\399031\documents\visual studio 2013\Projects\MyWeatherApplication\packages\Newtonsoft.Json.6.0.8\lib\portable-net40+sl5+wp80+win8+wpa81\Newtonsoft.Json.dll
